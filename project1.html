@@ -1,0 +1,124 @@
+<html>
+  <head>
+    <title>Card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <style>
+      
+        *{
+
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+      body {
+        background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png);
+        display: flex;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+      }
+      .Profile {
+        border: 10px solid;
+        border-radius: 10px;
+      }
+      .Header {
+        background-color: black;
+        width: 250px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .pic {
+        display: inline-block;
+        background: linear-gradient(135deg, lightblue, orange);
+        border-radius: 60px;
+        margin: auto;
+        background-size: 200%;
+      }
+      .pic img {
+        display: block;
+        width: 100px;
+        height: 100px;
+      }
+      .name {
+        color: white;
+        margin: 10px 0;
+      }
+      .about {
+        color: orange;
+        font-size: 13px;
+      }
+      .icon {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+      }
+      .icon a {
+        color: white;
+        width: 60px;
+        font-size: 22px;
+        transition: 0.5s linear;
+      }
+      .icon a:hover {
+        color: peachpuff;
+      }
+      .contact a:hover {
+        display: inline-block;
+        padding: 9px 40px;
+        color: orange;
+        border: 2px solid orange;
+        border-radius: 3px;
+        transition: 0.5s linear;
+        margin-top: 15px;
+        
+
+      }
+     
+       
+      
+      .contact {
+        display: inline-block;
+        padding: 12px 50px;
+        color: orange;
+        border: 2px solid orange;
+        margin-top: 20px;
+        transition: 0.5s linear;
+      }
+      .contact:hover {
+        background-color:peachpuff;
+        color: white;
+      }
+      .bottom {
+        background-color: white;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="Profile">
+      <div class="Header">
+        <div class="pic">
+          <img
+            src="https://vidhyamay.com/wp-content/uploads/elementor/thumbs/coding-psfy28xl3z1f3z1zehyaz2mkb8uyt7ihcdz0h6cvc0.png"
+            alt=""
+          />
+        </div>
+        <div class="name">Vidhyamay Education</div>
+        <div class="about">Education Platform</div>
+        <div class="icon">
+          <a href="#" class="fab fa-facebook-f"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-youtube"></a>
+        </div>
+        <a class="contact"href="#" style="text-decoration: none;">Contact Me</a>
+        <div class="bottom"></div>
+      </div>
+    </div>
+  </body>
+</html>
